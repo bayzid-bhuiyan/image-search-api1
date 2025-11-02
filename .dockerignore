@@ -1,13 +1,12 @@
-# Ignore local Python cache
+# Ignore Python cache
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 
-# Ignore data you don't need in the container
+# Ignore Jupyter notebooks and temporary files
 *.ipynb
-*.csv.backup
-*.npy.backup
+*.ipynb_checkpoints
 
 # Ignore local environment folders
 venv/
@@ -18,3 +17,11 @@ venv/
 # Ignore Git files
 .git/
 .gitignore
+
+# Ignore large backup files
+*.csv.backup
+*.npy.backup
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
