@@ -1,0 +1,20 @@
+# Ignore local Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore data you don't need in the container
+*.ipynb
+*.csv.backup
+*.npy.backup
+
+# Ignore local environment folders
+venv/
+.env/
+.idea/
+.vscode/
+
+# Ignore Git files
+.git/
+.gitignore
